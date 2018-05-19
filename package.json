@@ -2,14 +2,29 @@
   "name": "ez-books",
   "version": "1.0.0",
   "description": "A small app that helps you find/download books very easily",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "lint": "eslint src",
-    "build": "gulp build"
+    "build": "gulp build",
+    "prepublish": "gulp build"
   },
-  "keywords": ["books", "books", "epub"],
-  "author": "Oussama Barkouki",
+  "author": {
+    "name": "Oussama Barkouki",
+    "email": "oussama1598@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oussama1598/ez-books.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oussama1598/ez-books/issues"
+  },
+  "keywords": ["books", "books", "epub", "download", "zip", "pdf"],
   "license": "ISC",
+  "bin": {
+    "ez-books": "index.js"
+  },
+  "files": ["dist"],
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.44",
     "@babel/plugin-transform-runtime": "^7.0.0-beta.44",
