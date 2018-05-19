@@ -1,6 +1,6 @@
 {
   "name": "ez-books",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small app that helps you find/download books very easily",
   "main": "dist/index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   "keywords": ["books", "books", "epub", "download", "zip", "pdf"],
   "license": "ISC",
   "bin": {
-    "ez-books": "index.js"
+    "ez-books": "dist/index.js"
   },
   "files": ["dist"],
   "devDependencies": {
