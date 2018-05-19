@@ -1,0 +1,46 @@
+{
+  "name": "ez-books",
+  "version": "1.0.0",
+  "description": "A small app that helps you find/download books very easily",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src",
+    "build": "gulp build"
+  },
+  "keywords": ["books", "books", "epub"],
+  "author": "Oussama Barkouki",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.44",
+    "@babel/plugin-transform-runtime": "^7.0.0-beta.44",
+    "@babel/polyfill": "^7.0.0-beta.44",
+    "@babel/preset-env": "^7.0.0-beta.44",
+    "@babel/register": "^7.0.0-beta.44",
+    "babel-eslint": "^8.2.2",
+    "del": "^3.0.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^8.0.0-beta.2",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-remove-code": "^2.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "run-sequence": "^2.2.1"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0-beta.44",
+    "app-module-path": "^2.2.0",
+    "cheerio": "^1.0.0-rc.2",
+    "colors": "^1.2.5",
+    "commander": "^2.15.1",
+    "flavors": "^3.3.1",
+    "inquirer": "^5.2.0",
+    "progress": "^2.0.0",
+    "request": "^2.86.0",
+    "request-promise": "^4.2.2",
+    "x-ray": "^2.3.2"
+  }
+}
