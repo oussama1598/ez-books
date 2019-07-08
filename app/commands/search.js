@@ -1,8 +1,8 @@
-import { askForKeyword, listResults, separator } from 'helpers/prompt';
-import { error } from 'helpers/logger';
-import { searchForBook, getDownloadLinks } from 'lib/ebookbb';
-import parseClodyFiles from 'lib/cloudyfiles';
-import Downloader from 'modules/Downloader';
+import { askForKeyword, listResults, separator } from '../helpers/prompt';
+import { error } from '../helpers/logger';
+import { searchForBook, getDownloadLinks } from '../lib/ebookbb';
+import parseClodyFiles from '../lib/cloudyfiles';
+import Downloader from '../modules/Downloader';
 
 const CWD = process.cwd();
 
